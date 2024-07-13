@@ -11,7 +11,7 @@ export function Landing() {
         setTask(response.data);
       })
       .catch((error) => {
-        console.error("There was an error fetching the todos!", error);
+        console.error("There was an error fetching the tasks!", error);
       });
   }, []);
 
